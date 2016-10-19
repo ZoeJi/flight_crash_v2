@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+		<script type="text/javascript" src="d3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Space+Mono:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+		<title>Flight crash Dataviz</title>
+	</head>
+
+	<body>
+		<div id="container">
+		<div id="intro">
+			<h id="title">Visulizing google search trends on “Flight Crash”</h>
+			<p id="introtext">When and why people pay more attention on "Flight Crash"?
+			In this visulization, the Google Trends on "Flight Crash" is shown along with all commercial
+		flight crashes to help us explore more reason behind the scene. Do people care more about casualty?
+	Do the causes of crash catch more attention?</p>
+		</div>
+
+		<img id="scroll" src="img/scroll.png">
+		<img id="discover" src="img/discover.png">
+
+		<div id="chart"></div>
+		<img id="airfrance" src="img/airfrance.png">
+		<img id="malaysia" src="img/malaysia.png">
+		<img id="malaysia2" src="img/malaysia2.png">
+
+		<div id="causebar">
+			<div id="human" class="cause">Human error 47%</div>
+			<div id="weather" class="cause"> Weather 19%</div>
+			<div id="mechanical" class="cause"> Mechanical 17%</div>
+			<div id="unknown" class="cause"> Unknown 12%</div>
+			<div id="criminal" class="cause"> Criminal<br>5%</div>
+		</div>
+	</div>
+	</body>
+
+</html>
