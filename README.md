@@ -7,3 +7,5 @@ In this visualization, the Google Trends on "Flight Crash" is shown along with a
 
 View it live here:
 https://zoeji.github.io/flight_crash_v2/
+
+![Screenshots](flight-crash.png?raw=true "Title")
